@@ -3,13 +3,13 @@ Working files for Power BI, Weka results and so on
 
 Find confusion matrices and summaries of classification by Weka under [Results Folder](results)
 
-| Classification with Training set size                  | **TP Rate (%)** | **FP Rate (%)** | **Accuracy (%)** |
-| ------------------------------------------------------ | --------------- | --------------- | ---------------- |
-| [**J48 Tree 60%**](results/J48-60.md)                  | 97.9            | 0.6             | 97.9081          |
-| [**J48 Tree 80%**](results/J48-80.md)                  | 97.9            | 0.6             | 97.9246          |
-| [**Simple Cart (REP Tree) 60%**](results/REPT-60.md)   | 97.5            | 0.6             | 97.5017          |
-| [**Simple Cart (REP Tree) 80%**](results/REPT-80.md)   | 97.6            | 0.6             | 97.5821          |
-| [**Naive Bayes 60%**](results/NaiveBayes-60.md)        | 96.8            | 0.8             | 96.8435          |
-| [**Naive Bayes 80%**](results/NaiveBayes-80.md)        | 96.9            | 0.7             | 96.8724          |
-| [**K-Nearest Neighbors (IBK) 60%**](results/IBK-60.md) | 89.5            | 7.2             | 89.5156          |
-| [**K-Nearest Neighbors (IBK) 80%**](results/IBK-80.md) | 90.3            | 6.6             | 90.3326          |
+| Classifier                    | Size | Recall | Precision | FP Rate | F-Measure | Accuracy |
+| :---------------------------- | ---: | -----: | --------: | ------: | --------: | -------: |
+| [J48 Tree](results/J48-60.md)                  |  0.6 |  0.994 |     0.994 |   0.001 |     0.994 |  0.979081 |
+| [J48 Tree](results/J48-80.md)                  |  0.8 |  0.992 |     0.992 |       0 |     0.994 |  0.979246 |
+| [Simple Cart (REP Tree)](results/REPT-60.md)    |  0.6 |  0.994 |     0.994 |   0.001 |     0.994 |  0.97.5017 |
+| [Simple Cart (REP Tree)](results/REPT-80.md)    |  0.8 |   0.99 |     0.995 |       0 |     0.994 |  0.975821 |
+| [Naive Bayes](results/NaiveBayes-60.md)               |  0.6 |  0.944 |     0.978 |   0.002 |     0.961 |  0.968435 |
+| [Naive Bayes](results/NaiveBayes-80.md)               |  0.8 |   0.94 |      0.98 |   0.002 |      0.96 |  0.968724 |
+| [K-Nearest Neighbors (IBK)](results/IBK-60.md) |  0.6 |  0.473 |     0.773 |   0.013 |     0.587 |  0.895156 |
+| [K-Nearest Neighbors (IBK)](results/IBK-80.md) |  0.8 |  0.491 |     0.802 |       0 |     0.802 |  0.903326 |
